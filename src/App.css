@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 85px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.board {
+  margin: auto;
+  width: 282px;
+  height: 282px;
+  background-color: #004d00;
+  /*height: 50%;*/
+  /*height: 500px;*/
+}
+.tile {
+  background-color: #004d00;
+  float: left;
+  height: 90px;
+  width: 90px;
+  border: 2px solid black;
+  color: white;
+  font-size: 42px;
+  vertical-align: middle;
+  /*padding-top: 15px; */
+}
+.hud {
+  font-size: 18px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 335px;
+  height: 80px;
+  padding: 10px;
+  /*height: 30%;*/
+  background-color: #222;
+}
+.tileContents {
+  padding: 21px;
+}
+.title {
+  font-size: 20px;
+}
+.score {
+  font-size: 30px;
+}
+.selectMark {
+  background-color: green;
+  color: white;
+  height: 35px;
+  width: auto;
+  margin: 7px;
+  padding: 8px;
+}
+.selectMark:hover {
+  background-color: #009900
+}
